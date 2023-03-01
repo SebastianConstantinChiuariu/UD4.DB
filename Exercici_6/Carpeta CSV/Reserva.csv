@@ -1,3 +1,3 @@
-idReserva,Vol_idVol,Dia_Reserva,Num_vol,Import_Total
-0123,9876,07/04/23,1111,250€
-4567,4321,16/05/23,1112,370€
+idReserva,Vol_idVol,Dia_Reserva,Num_vol,Import_Total,Destí,Origen
+0123,9876,07/04/23,1111,250€,Ohio,Miami
+4567,4321,16/05/23,1112,370€,Roma,Madrid

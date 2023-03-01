@@ -1,3 +1,4 @@
-idEmpleat,DNI,Nom,Cognom,"Adreça electrònica",Data_Naixement,Telèfon,Edat
-001,48372964F,Pablo,Orfila,pablo.orf.01@gmail.com,04/02/1998,610222432,25
-002,47382938L,Pepe,Martín,pmartin@gmail.com,09/01/1980,632475529,43
+Codi_Intern,Codi_Barres,Preu_Unitari,Descripció,IVA,Preu_Final,Producte.nom
+2736,,2.50€,Pack_6_bòtils_aigua,21%,3.02€,NULL
+2643,,1€,Cheetos,21%,1.21€,NULL
+2111,NULL,15.60€,Limonchelo,21%,18.87€,NULL

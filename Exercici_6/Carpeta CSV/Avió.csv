@@ -1,3 +1,3 @@
-idAvió,Model_Avió,Capacitat_Passatgers
-1927,Airbus_A380,220
-1928,Boeing_747,240
+idAvió,Model_Avió,Capacitat_Passatgers,Marca
+1927,380,220,Airbus
+1928,747,240,Airbus

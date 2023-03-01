@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS `Exercici_6`.`Avió` (
   `idAvió` INT NOT NULL,
   `Model_Avió` VARCHAR(45) NULL,
   `Capacitat_Passatgers` VARCHAR(45) NULL,
+  `Marca` VARCHAR(45) NULL,
   PRIMARY KEY (`idAvió`))
 ENGINE = InnoDB;
 
@@ -57,6 +58,7 @@ CREATE TABLE IF NOT EXISTS `Exercici_6`.`Vol` (
   `Avió_idAvió` INT NOT NULL,
   `Hora_Sortida` VARCHAR(45) NULL,
   `Hora_Arribada` VARCHAR(45) NULL,
+  `Data_Vol` VARCHAR(45) NULL,
   PRIMARY KEY (`idVol`),
   INDEX `fk_Vol_Avió1_idx` (`Avió_idAvió` ASC) VISIBLE,
   CONSTRAINT `fk_Vol_Avió1`
@@ -76,6 +78,8 @@ CREATE TABLE IF NOT EXISTS `Exercici_6`.`Reserva` (
   `Dia_Reserva` VARCHAR(45) NULL,
   `Num_vol` VARCHAR(45) NULL,
   `Import_Total` VARCHAR(45) NULL,
+  `Destí` VARCHAR(45) NULL,
+  `Origen` VARCHAR(45) NULL,
   PRIMARY KEY (`idReserva`),
   INDEX `fk_Reserva_Vol_idx` (`Vol_idVol` ASC) VISIBLE,
   CONSTRAINT `fk_Reserva_Vol`
